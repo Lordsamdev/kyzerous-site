@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link to="/" className="group" aria-label="Home">
           <img 
-            src="assets/logo.png" 
+            src="/logo.png" 
             alt="Kyzerous" 
             className={`transition-all duration-300 ${scrolled ? 'h-8' : 'h-10'} w-auto`}
           />
