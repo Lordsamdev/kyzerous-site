@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <div className="animate-fade-in">
       {/* HERO SECTION */}
-      <section className="min-h-[85vh] flex items-center justify-center px-6 md:px-12 bg-white relative overflow-hidden">
+      <section className="min-h-[85vh] flex items-center justify-center px-6 md:px-12 bg-transparent relative overflow-hidden">
          {/* Subtle abstract background element */}
          <div className="absolute top-0 right-0 w-1/3 h-full bg-neutral-50 skew-x-12 translate-x-32 -z-10 opacity-50"></div>
          

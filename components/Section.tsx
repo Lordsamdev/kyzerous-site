@@ -9,8 +9,8 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ children, className = '', id, background = 'white' }) => {
   const bgClasses = {
-    white: 'bg-white',
-    light: 'bg-neutral-50',
+    white: 'bg-transparent',
+    light: 'bg-neutral-50/80 backdrop-blur-sm',
     dark: 'bg-neutral-900 text-white',
   };
 

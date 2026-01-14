@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Apply from './pages/Apply';
 import ThankYou from './pages/ThankYou';
+import BackgroundAnimation from './components/BackgroundAnimation';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -21,7 +22,8 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen bg-white text-neutral-900 font-sans tracking-tight">
+      <BackgroundAnimation />
+      <div className="flex flex-col min-h-screen bg-transparent text-neutral-900 font-sans tracking-tight relative z-10">
         <Navbar />
         <main className="flex-grow pt-24">
           <Routes>
